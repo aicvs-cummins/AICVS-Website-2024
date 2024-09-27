@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { robot } from "../assets";
+import { curve, heroBackground, background, robot, team} from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -16,41 +16,42 @@ const Hero = () => {
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
+        <div className="relative z-1 mx-auto text-center lg:mt-[3rem] mb-0">
+          <h1 className="animate-pulse mt-3 lg:mt-0 mb-6 lg:text-8xl md:text-6xl text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500 drop-shadow-neon">
            Artificial Intelligence and Computer Vision Society
-        
+              <img src={curve} className="md:inline-block hidden top-0 mt-0 left-0 max-w-52 xl:-mt-2" width={624} height={28} alt="Curve" />
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-         We are the Artificial Intelligence & Computer Vision Society of Cummins College of Engineering.Our Society aims to help students in shaping their career in AI/ML, through projects,competitions & internships.
+          <p className="animate-slidein [--slidein-delay:100ms] opacity-0 lg:text-2xl text-base max-w-6xl mx-auto my-10 lg:mb-8">
+         We are the Artificial Intelligence & Computer Vision Society of Cummins College of Engineering. Our Society aims to help students in shaping their career in AI/ML, through projects,competitions & internships.
           </p>
-          <Button href="" white>
-            Upcoming Events
-          </Button>
+          
         </div>
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+
+        <div className="animate-bounce_slow relative mt-[30%] max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+          <div className="relative z-10 p-1 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
-
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="h-[0rem] bg-n-10 rounded-t-[0.9rem]"/>
+              <div className="aspect-[33/22] overflow-hidden rounded-b-[0.9rem] md:aspect-[688/490] lg:aspect-[1024/490] min-h-[200px]">
                 <img
-                  src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
-                  width={1024}
-                  height={490}
-                  alt="AI"
+                  src={team}
+                  className="w-full rounded-[0.9rem] object-contain"
+                  width={1440}
+                  height={1800}
+                  alt="hero"
                 />
-
-               
-
-            
-
+              </div>
               </div>
             </div>
-
-            <Gradient />
-          </div>
+            
+            <div className="absolute -top-[54%] left-1/2 w-[100%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+              <img 
+                src={heroBackground}
+                className="w-full"
+                width={1440}
+                height={1800}
+                alt="hero"
+              />
+            </div>
         
 
           <BackgroundCircles />

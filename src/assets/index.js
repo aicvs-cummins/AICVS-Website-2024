@@ -1,8 +1,8 @@
-import smallSphere from "./4-small.png";
+import smallSphere from "./ball.png";
+import waveSphere from "./wave.png";
 import background from "./background.jpg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwave from "./brainwave.svg";
+import logo from "./logo.png"
+import brainwave from "./brainwave.png";
 import check2 from "./check-02.svg";
 import check from "./check.svg";
 import chromecast from "./chrome-cast.svg";
@@ -19,6 +19,7 @@ import recording01 from "./recording-01.svg";
 import recording03 from "./recording-03.svg";
 import searchMd from "./search-md.svg";
 import sliders04 from "./sliders-04.svg";
+import team from "../assets/hero/team.png"
 import yourlogo from "./yourlogo.svg";
 
 import curve from "./hero/curve.png";
@@ -86,8 +87,7 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2, brainwave, brainwaveSymbol,
-  brainwaveWhiteSymbol, check,
+  benefitImage2, brainwave, logo, check,
   check2, chromecast, coins, curve, curve1,
   curve2, disc02, discord, discordBlack, done, facebook, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, instagram, lines, loading, loading1, notification1,
   notification2,
@@ -100,6 +100,6 @@ export {
   roadmap4, robot, searchMd, service1,
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
-  twitter, undone, yourlogo
+  twitter, undone, team, yourlogo, waveSphere
 };
 

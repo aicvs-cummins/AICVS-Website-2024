@@ -6,6 +6,24 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      keyframes: {
+        slidein: {
+          '0%': { transform: 'translateX(-100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+          from: {
+            opacity: "0",
+            transform: "translateY(-10px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        bounce_slow: "bounce 20s infinite",
+        slidein: "slidein 1s ease var(--slidein-delay, 0) forwards",
+      },
       colors: {
         color: {
           1: "#AC6AFF",
@@ -72,6 +90,7 @@ export default {
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
     },
+
   },
   plugins: [
     plugin(function ({ addBase, addComponents, addUtilities }) {
