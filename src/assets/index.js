@@ -2,6 +2,7 @@ import smallSphere from "./ball.png";
 import waveSphere from "./wave.png";
 import background from "./background.jpg";
 import logo from "./logo.png"
+import bird from "./collaboration/bird.png";
 import brainwave from "./brainwave.png";
 import check2 from "./check-02.svg";
 import check from "./check.svg";
@@ -87,7 +88,7 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2, brainwave, logo, check,
+  benefitImage2, bird, brainwave, logo, check,
   check2, chromecast, coins, curve, curve1,
   curve2, disc02, discord, discordBlack, done, facebook, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, instagram, lines, loading, loading1, notification1,
   notification2,
@@ -102,4 +103,3 @@ export {
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, team, yourlogo, waveSphere
 };
-

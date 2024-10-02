@@ -37,22 +37,27 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#",
+    url: "/",
   },
   {
     id: "1",
     title: "Events",
-    url: "#",
+    url: "/events",
   },
   {
     id: "2",
     title: "Blogs",
-    url: "#",
+    url: "/blogs",
   },
   {
     id: "3",
     title: "Team",
-    url: "#",
+    url: "/team",
+  },
+  {
+    id: "4",
+    title: "Register",
+    url: "/register",
   },
 
 ];
@@ -227,19 +232,20 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const team2024 = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Isha Bhagat",
+    text: "Co-Head Coordinator",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    light: true,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Ishita Lele",
+    text: "Co-Head Coordinator",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -247,16 +253,17 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Kruti Newalkar",
+    text: "Web Development Team Lead",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    light: true
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Varada Gokhale",
+    text: "Technical Team Lead",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -264,19 +271,69 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Yashita Killedar",
+    text: "Content and Design Team Lead",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    light: true
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Siya Shah",
+    text: "PR and Sponsorship Team Lead",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    light: true
+  },
+];
+
+export const team2023 = [
+  {
+    id: "0",
+    title: "Janhavi Mishra",
+    text: "Projects and Internships Team Lead",
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    iconUrl: benefitIcon4,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "1",
+    title: "Shreya Watwe",
+    text: "Head Coordinator",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Shreya Agrawal",
+    text: "Web Development Team Lead",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+    light: true
+  },
+  {
+    id: "3",
+    title: "Vaidehi More",
+    text: "Content and Design Team Lead",
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+    light: true
+  },
+  {
+    id: "4",
+    title: "Shreya Mote",
+    text: "PR and Sponsorship Team Lead",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+    light: true
   },
 ];
 
