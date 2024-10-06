@@ -14,7 +14,7 @@ const App = () => {
         <Hero />
         <AboutUs /> 
         <Team />
-
+        
         <Footer />
       </div>
 
