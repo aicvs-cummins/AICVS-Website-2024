@@ -8,6 +8,8 @@ import Team from "./components/Team.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Register from "./components/Register.jsx";
+import Blogs from "./components/Blogs.jsx";
+import Pricing from "./components/Pricing.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />
+  },
+  {
+    path: "/blogs",
+    element: <Blogs />
+  },
+  {
+    path: "/events",
+    element: <Pricing />
   }
 ]);
 
