@@ -8,7 +8,7 @@ import Team from "./components/Team.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Register from "./components/Register.jsx";
-
+import Pricing from "./components/Pricing";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +22,10 @@ const router = createBrowserRouter([
         <Team name="AICVS Team AY 2023-2024" team={team2023}/>
       <Footer />
     </div>,
+  },
+  {
+    path: "/events",
+    element: <Pricing />
   },
   {
     path: "/register",
