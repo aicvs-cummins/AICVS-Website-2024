@@ -12,6 +12,9 @@ import {
   framer,
   homeSmile,
   instagram,
+  isha,
+  ishita,
+  kruti,
   notification2,
   notification3,
   notification4,
@@ -27,10 +30,13 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
+  siya,
   slack,
   sliders04,
   telegram,
   twitter,
+  varada,
+  yashita,
 
 } from "../assets";
 
@@ -201,27 +207,33 @@ export const pricing = [
   {
     id: "0",
     title: "DATAHON",
+    img: "../assets/datathon.jpg",
     
   },
   {
     id: "1",
     title: "MLUSION",
+    img: "../assets/mlusion.jpg"
   },
   {
     id: "2",
     title: "KAGGLE COMPETITION",
+    img: "../assets/kaggle.jpg"
   },
   {
     id: "3",
     title: "THE SYNAPSE HACKATHON",
+    img: "../assets/synapse.jpg"
   },
   {
     id: "4",
     title: "AICVS X MATH CLUB",
+    img: "../assets/math.jpg"
   },
   {
     id: "5",
     title: "WORKSHOP ON GEN AI",
+    img: "../assets/workshop.png"
   },
 ];
 
@@ -232,7 +244,7 @@ export const team2024 = [
     text: "Co-Head Coordinator",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: isha,
     light: true,
   },
   {
@@ -241,7 +253,7 @@ export const team2024 = [
     text: "Co-Head Coordinator",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: ishita,
     light: true,
   },
   {
@@ -250,8 +262,8 @@ export const team2024 = [
     text: "Web Development Team Lead",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-    light: true
+    imageUrl: kruti,
+    light: true,
   },
   {
     id: "3",
@@ -259,7 +271,7 @@ export const team2024 = [
     text: "Technical Team Lead",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: varada,
     light: true,
   },
   {
@@ -268,7 +280,7 @@ export const team2024 = [
     text: "Content and Design Team Lead",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: yashita,
     light: true
   },
   {
@@ -277,7 +289,7 @@ export const team2024 = [
     text: "PR and Sponsorship Team Lead",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: siya,
     light: true
   },
 ];

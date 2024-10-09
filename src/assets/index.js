@@ -23,6 +23,14 @@ import sliders04 from "./sliders-04.svg";
 import team from "../assets/hero/team.png"
 import yourlogo from "./yourlogo.svg";
 
+import kruti from "./kruti.png";
+import yashita from "./yashita.png";
+import isha from "./isha.png";
+import ishita from "./ishita.png";
+import siya from "./siya.png";
+import varada from "./varada.png";
+
+
 import curve from "./hero/curve.png";
 import heroBackground from "./hero/hero-background.jpg";
 import robot from "./hero/robot.jpg";
@@ -101,5 +109,6 @@ export {
   roadmap4, robot, searchMd, service1,
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
-  twitter, undone, team, yourlogo, waveSphere
+  twitter, undone, team, yourlogo, waveSphere,
+  kruti, yashita, isha, ishita, siya, varada
 };
