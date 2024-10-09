@@ -8,7 +8,7 @@ import Team from "./components/Team.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Register from "./components/Register.jsx";
-import Pricing from "./components/Pricing.jsx";
+import Events from "./components/Events.jsx";
 import Blog from "./components/Blog.jsx";
 const router = createBrowserRouter([
   {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/events",
-    element: <Pricing />
+    element: <Events />
   },
   {
     path: "/blogs",

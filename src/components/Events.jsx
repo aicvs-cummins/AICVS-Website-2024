@@ -4,10 +4,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
-import PricingList from "./PricingList";
+import EventList from "./EventList";
 import { LeftLine, RightLine } from "./design/Pricing";
 
-const Pricing = () => {
+const Events = () => {
   return (
     <div>
       <Header /> {/* Add the Header component */}<br /><br /><br /><br />
@@ -16,7 +16,7 @@ const Pricing = () => {
           <Heading tag="Get started with Brainwave" title="Events" />
 
           <div className="relative">
-            <PricingList />
+            <EventList />
             <LeftLine />
             <RightLine />
           </div>
@@ -27,4 +27,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Events;

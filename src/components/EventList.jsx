@@ -1,4 +1,3 @@
-import { smallSphere } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 
@@ -20,7 +19,7 @@ const PricingList = () => {
             <ul>
               <div className="mt-4">
                 <img
-                  src={smallSphere}
+                  src={item.img}
                   width={24}
                   height={24}
                   alt="Pricing box image"
@@ -43,7 +42,7 @@ const PricingList = () => {
             <ul>
               <div className="mt-4">
                 <img
-                  src={smallSphere}
+                  src={item.img}
                   width={24}
                   height={24}
                   alt="Pricing box image"

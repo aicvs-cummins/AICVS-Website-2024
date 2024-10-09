@@ -3,6 +3,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import { yashita } from "../assets";
 
 const Team = (props) => {
   // Split the benefits array into two halves
@@ -41,7 +42,7 @@ const Team = (props) => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className={`absolute inset-0 transition-opacity hover:opacity-0`}>
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
