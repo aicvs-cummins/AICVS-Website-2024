@@ -19,7 +19,7 @@ const Team = (props) => {
         />
 
         {/* First set of cards */}
-        <div className="flex flex-wrap justify-between gap-10 mb-6">
+        <div className="flex flex-wrap justify-center gap-10 mb-6">
           {firstHalf.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] max-w-full w-[12rem] md:w-[20rem]"
