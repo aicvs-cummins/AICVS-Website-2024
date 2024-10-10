@@ -40,6 +40,17 @@ import {
 
 } from "../assets";
 
+
+
+import datathon from "../assets/datathon.png";
+
+import mlusion from "../assets/mlusion.jpg";
+import kaggle from "../assets/kaggle.jpg";
+import synapse from "../assets/synapse.jpg";
+import math from "../assets/math.jpg";
+import workshop from "../assets/workshop.jpg";
+
+
 export const navigation = [
   {
     id: "0",
@@ -207,33 +218,34 @@ export const pricing = [
   {
     id: "0",
     title: "DATAHON",
-    img: "../assets/datathon.jpg",
+    img: datathon,
     
   },
   {
     id: "1",
     title: "MLUSION",
-    img: "../assets/mlusion.jpg"
+    img: mlusion,
+    
   },
   {
     id: "2",
     title: "KAGGLE COMPETITION",
-    img: "../assets/kaggle.jpg"
+    img: kaggle,
   },
   {
     id: "3",
     title: "THE SYNAPSE HACKATHON",
-    img: "../assets/synapse.jpg"
+    img: synapse,
   },
   {
     id: "4",
     title: "AICVS X MATH CLUB",
-    img: "../assets/math.jpg"
+    img: math,
   },
   {
     id: "5",
     title: "WORKSHOP ON GEN AI",
-    img: "../assets/workshop.png"
+    img: workshop,
   },
 ];
 
