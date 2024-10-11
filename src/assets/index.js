@@ -30,6 +30,12 @@ import ishita from "./ishita.png";
 import siya from "./siya.png";
 import varada from "./varada.png";
 
+import shreya_watwe from "./shreya_watwe.png";
+import shreya_mote from "./shreya_mote.png";
+import shreya_agrawal from "./shreya_agrawal.png";
+import vaidehi_more from "./vaidehi_more.png";
+import janhavi_mishra from "./janhavi_mishra.png";
+
 
 import curve from "./hero/curve.png";
 import heroBackground from "./hero/hero-background.jpg";
@@ -110,5 +116,6 @@ export {
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, team, yourlogo, waveSphere,
-  kruti, yashita, isha, ishita, siya, varada
+  kruti, yashita, isha, ishita, siya, varada,
+  shreya_watwe, shreya_mote, shreya_agrawal, vaidehi_more, janhavi_mishra
 };

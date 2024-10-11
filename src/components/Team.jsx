@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Heading from "./Heading";
 import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
@@ -9,6 +9,16 @@ const Team = (props) => {
   // Split the benefits array into two halves
   const firstHalf = props.team.slice(0, 6);
   const secondHalf = props.team.slice(6, 12);
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  function handleHover(value)
+  {
+    setIsHovered(value)
+    if(value) {
+
+    }
+  }
 
   return (
     <Section id="features">
@@ -42,7 +52,9 @@ const Team = (props) => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className={`absolute inset-0 transition-opacity hover:opacity-0`}>
+                <div className={`absolute inset-0 transition-opacity ${isHovered ? 'opacity-0' : 'opacity-100'}`}
+                onMouseEnter={() => { handleHover(true);}}
+                onMouseLeave={() => { handleHover(false);}}>
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
@@ -52,6 +64,15 @@ const Team = (props) => {
                       className="min-w-full h-full object-cover"
                     />
                   )}
+                  {/* {isHovered && (
+                    <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 text-white transition-opacity duration-500">
+                      <ul>
+                        {item.members.map((name, index) => (
+                          <li key={index} className="my-1">{name}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )} */}
                 </div>
               </div>
 

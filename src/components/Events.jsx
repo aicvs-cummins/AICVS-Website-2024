@@ -13,7 +13,10 @@ const Events = () => {
       <Header /> {/* Add the Header component */}<br /><br /><br /><br />
       <Section className="overflow-hidden" id="pricing">
         <div className="container relative z-2">
-          <Heading tag="Get started with Brainwave" title="Events" />
+        <Heading
+          className="md:max-w-md text-center lg:max-w-2xl font-semibold"
+          title="Events"
+        />
 
           <div className="relative">
             <EventList />
