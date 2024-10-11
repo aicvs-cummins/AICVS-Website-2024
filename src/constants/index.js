@@ -14,6 +14,7 @@ import {
   instagram,
   isha,
   ishita,
+  janhavi_mishra,
   kruti,
   notification2,
   notification3,
@@ -30,11 +31,15 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
+  shreya_agrawal,
+  shreya_mote,
+  shreya_watwe,
   siya,
   slack,
   sliders04,
   telegram,
   twitter,
+  vaidehi_more,
   varada,
   yashita,
 
@@ -258,6 +263,7 @@ export const team2024 = [
     iconUrl: benefitIcon1,
     imageUrl: isha,
     light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "1",
@@ -267,6 +273,7 @@ export const team2024 = [
     iconUrl: benefitIcon2,
     imageUrl: ishita,
     light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "2",
@@ -276,6 +283,7 @@ export const team2024 = [
     iconUrl: benefitIcon3,
     imageUrl: kruti,
     light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "3",
@@ -285,6 +293,7 @@ export const team2024 = [
     iconUrl: benefitIcon4,
     imageUrl: varada,
     light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "4",
@@ -293,7 +302,8 @@ export const team2024 = [
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: yashita,
-    light: true
+    light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "5",
@@ -302,7 +312,8 @@ export const team2024 = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: siya,
-    light: true
+    light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
 ];
 
@@ -313,8 +324,9 @@ export const team2023 = [
     text: "Projects and Internships Team Lead",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: janhavi_mishra,
     light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "1",
@@ -322,8 +334,9 @@ export const team2023 = [
     text: "Head Coordinator",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: shreya_watwe,
     light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "2",
@@ -331,8 +344,9 @@ export const team2023 = [
     text: "Web Development Team Lead",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-    light: true
+    imageUrl: shreya_agrawal,
+    light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "3",
@@ -340,8 +354,9 @@ export const team2023 = [
     text: "Content and Design Team Lead",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-    light: true
+    imageUrl: vaidehi_more,
+    light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
   {
     id: "4",
@@ -349,8 +364,9 @@ export const team2023 = [
     text: "PR and Sponsorship Team Lead",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true
+    imageUrl: shreya_mote,
+    light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
   },
 ];
 
