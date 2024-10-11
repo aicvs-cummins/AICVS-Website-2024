@@ -25,6 +25,7 @@ const Team = (props) => {
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] max-w-full w-[12rem] md:w-[20rem]"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
+                backgroundColor: `purple`,
               }}
               key={item.id}
             >
