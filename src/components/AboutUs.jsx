@@ -13,12 +13,10 @@ const AboutUs = () => {
         id="hero"
         >
             <div className="container animate-slidein300 lg:ml-[3rem] max-w-4xl bg-n-800 p-8 rounded-lg shadow-lg mb-5">
-                <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] rounded-full md:h-80 md:w-80 z-0  absolute top-[20%] right-3 transform -translate-x-1/4 h-0 w-0">
-                    <div className="hidden xl:block">
+                <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] rounded-full 2xl:h-80 2xl:w-80 z-0 lg:h-52 lg:w-52  absolute 2xl:top-[20%] right-3 transform 2xl:-translate-x-1/4 xl:-translate-x-1/2 h-0 w-0">
+                    <div className="hidden 2xl:h-[300px] 2xl:w-[300px] xl:block xl:h-[200px] xl:w-[200px]  relative 2xl:left-0 2xl:top-0 left-[12%] top-[30%]">
                         <img
                             src={smallSphere}
-                            height={300}
-                            width={300}
                         />
                     </div>
                 </div>
@@ -36,8 +34,8 @@ const AboutUs = () => {
                 
                 {/* AICVS Vision */}
             <div className="container lg:mr-[3rem] max-w-4xl bg-n-800 p-8 rounded-lg shadow-lg">
-                <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] rounded-full md:h-80 md:w-80 z-0 absolute top-[65%] left-3 transform translate-x-1/4 h-0 w-0">
-                    <div className="hidden xl:block">
+                <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] rounded-full 2xl:h-80 2xl:w-80 lg:h-52 lg:w-52 z-0 absolute 2xl:top-[65%] left-3 transform xl:translate-x-1/4 h-0 w-0">
+                    <div className="hidden 2xl:h-[300px] 2xl:w-[300px] xl:block xl:h-[200px] xl:w-[200px]  relative 2xl:left-0 2xl:top-0 left-[12%] top-[30%]">
                         <img
                             src={waveSphere}
                             height={600}
