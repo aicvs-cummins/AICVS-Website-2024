@@ -3,20 +3,18 @@ import Heading from "./Heading";
 import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-import { yashita } from "../assets";
 
 const Team = (props) => {
-  // Split the benefits array into two halves
   const firstHalf = props.team.slice(0, 6);
   const secondHalf = props.team.slice(6, 12);
 
-  const [isHovered, setIsHovered] = useState(false);
-
-  function handleHover(value)
-  {
-    setIsHovered(value)
-    if(value) {
-
+  const [hoveredId, setHoveredId] = useState(null);
+  //creating an array for the heads as their cards should not fade
+  const nonFadingIds = ["1", "0", "6"];
+  function handleHover(id, index) {
+    // Prevent hover effect for the first two cards
+    if (id !== "0" || id !== "1" || id !== "6") {
+      setHoveredId(id);
     }
   }
 
@@ -30,17 +28,31 @@ const Team = (props) => {
 
         {/* First set of cards */}
         <div className="flex flex-wrap justify-center gap-10 mb-6">
-          {firstHalf.map((item) => (
+          {firstHalf.map((item, index) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] max-w-full w-[12rem] md:w-[20rem]"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
               key={item.id}
+              onMouseEnter={() => handleHover(item.id, index)}
+              onMouseLeave={() => handleHover(null)}
             >
               <div className="relative z-2 flex flex-col min-h-[20rem] p-[1.5rem] pointer-events-none">
-                <h5 className="h5 text-lg mb-2">{item.title}</h5>
-                <p className="body-2 block text-sm mb-3 text-n-3">{item.text}</p>
+                <h5
+                  className={`h5 text-lg mb-2 transition-opacity duration-300 ${
+                    hoveredId === item.id && !nonFadingIds.includes(item.id) ? "opacity-0" : "opacity-100"
+                  }`}
+                >
+                  {item.title}
+                </h5>
+                <p
+                  className={`body-2 block text-sm mb-3 text-n-3 transition-opacity duration-300 ${
+                    hoveredId === item.id &&!nonFadingIds.includes(item.id) ? "opacity-0" : "opacity-100"
+                  }`}
+                >
+                  {item.text}
+                </p>
                 <div className="flex items-center mt-auto">
                   {/* Optional content */}
                 </div>
@@ -52,9 +64,11 @@ const Team = (props) => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className={`absolute inset-0 transition-opacity ${isHovered ? 'opacity-0' : 'opacity-100'}`}
-                onMouseEnter={() => { handleHover(true);}}
-                onMouseLeave={() => { handleHover(false);}}>
+                <div
+                  className={`absolute inset-0 transition-opacity ${
+                    hoveredId === item.id && !nonFadingIds.includes(item.id) ? "opacity-0" : "opacity-100"
+                  }`}
+                >
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
@@ -64,16 +78,20 @@ const Team = (props) => {
                       className="min-w-full h-full object-cover"
                     />
                   )}
-                  {/* {isHovered && (
-                    <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 text-white transition-opacity duration-500">
-                      <ul>
-                        {item.members.map((name, index) => (
-                          <li key={index} className="my-1">{name}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )} */}
                 </div>
+
+                {hoveredId === item.id && !nonFadingIds.includes(item.id) && (
+                  <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 text-white transition-opacity duration-500">
+                    <ul>
+                      {item.members &&
+                        item.members.map((name, idx) => (
+                          <li key={idx} className="my-1">
+                            {name}
+                          </li>
+                        ))}
+                    </ul>
+                  </div>
+                )}
               </div>
 
               <ClipPath />
