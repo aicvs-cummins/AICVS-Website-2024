@@ -269,7 +269,7 @@ export const team2024 = [
     iconUrl: benefitIcon1,
     imageUrl: isha,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: []
   },
   {
     id: "1",
@@ -279,7 +279,7 @@ export const team2024 = [
     iconUrl: benefitIcon2,
     imageUrl: ishita,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: []
   },
   {
     id: "2",
@@ -299,7 +299,11 @@ export const team2024 = [
     iconUrl: benefitIcon4,
     imageUrl: varada,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: ["Aastha Ingle",
+      "Nandini Pathak",
+      "Mira Vadjikar",
+      "Saniya Karambelkar",
+      "Siddhi Faizpurkar"]
   },
   {
     id: "4",
@@ -309,7 +313,12 @@ export const team2024 = [
     iconUrl: benefitIcon1,
     imageUrl: yashita,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: ["Nidhi Patil",
+      "Anjali Patel",
+      "Tanvi Shirwadkar",
+      "Anvi Shelar",
+      "Anoushka Wadyalkar",
+      "Nainsee Khade"]
   },
   {
     id: "5",
@@ -319,60 +328,69 @@ export const team2024 = [
     iconUrl: benefitIcon2,
     imageUrl: siya,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: ["Kavya Thacker",
+      "Ananya Dani",
+      "Akshata Lolge",
+      "Aadya Singh",
+      "Shreeya Chavan",
+      "Advika Khorgade",
+      "Arya Patekhede",
+      "Sukhada Bhagwat",
+      "Shreya Babar",
+      "Garima Kardbhajane"]
   },
 ];
 
 export const team2023 = [
   {
-    id: "0",
-    title: "Janhavi Mishra",
-    text: "Projects and Internships Team Lead",
-    backgroundUrl: benefitCard4,
-    iconUrl: benefitIcon4,
-    imageUrl: janhavi_mishra,
-    light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
-  },
-  {
-    id: "1",
+    id: "6",
     title: "Shreya Watwe",
     text: "Head Coordinator",
     backgroundUrl: benefitCard1,
     iconUrl: benefitIcon1,
     imageUrl: shreya_watwe,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: []
   },
   {
-    id: "2",
+    id: "7",
+    title: "Janhavi Mishra",
+    text: "Projects and Internships Team Lead",
+    backgroundUrl: benefitCard4,
+    iconUrl: benefitIcon4,
+    imageUrl: janhavi_mishra,
+    light: true,
+    members: ["Aditi Hinge", "Tanya Gadwal", "Yashashri Phalak", "Bhakti Girase", "Siddhi Faizpurkar", "Ishita Lele"]
+  },
+  {
+    id: "8",
     title: "Shreya Agrawal",
     text: "Web Development Team Lead",
     backgroundUrl: benefitCard2,
     iconUrl: benefitIcon3,
     imageUrl: shreya_agrawal,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: ["Kruti Newalkar", "Yashoda Kangle", "Gauravi Veling", "Kasturi Mandik"]
   },
   {
-    id: "3",
+    id: "9",
     title: "Vaidehi More",
     text: "Content and Design Team Lead",
     backgroundUrl: benefitCard5,
     iconUrl: benefitIcon1,
     imageUrl: vaidehi_more,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: ["Gargi Joshi", "Bhairavi Bhuyar", "Tanjul Manikar", "Anoushka Wadyalkar", "Sharayu Chintal", "Devika Yeola"]
   },
   {
-    id: "4",
+    id: "10",
     title: "Shreya Mote",
     text: "PR and Sponsorship Team Lead",
     backgroundUrl: benefitCard3,
     iconUrl: benefitIcon2,
     imageUrl: shreya_mote,
     light: true,
-    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+    members: ["Mrunal Shinde", "Aastha Dhar", "Sanskriti Srivastava", "Isha Asare", "Richa Rathi", "Riya Chaudhari"]
   },
 ];
 
