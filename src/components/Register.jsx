@@ -2,27 +2,28 @@ import React from 'react'
 import Section from './Section'
 import Header from './Header'
 import Footer from './Footer'
-import { bird } from '../assets'
+import { roboface } from '../assets'
 
 const Register = () => {
   return (
     <div>
         <Header />
-        <Section crosses>
-            <div className="container flex justify-center lg:mt-0 mt-[5rem]">
-                <div className="relative max-w-full">
-                    <img
-                     src={bird}
-                     alt="Flying neon bird"
-                     className="relative mx-auto h-[200px] w-[200px]"
-                    />
-                    <h1 className="h2 mb-4 md:mb-8 text-center">
-                        Early Bird, Aren't You ?!
-                    </h1> 
-                    <p className="text-slate-400 font-medium text-2xl text-center">
-                        Hey there AI enthusiast! Thank you for being so deeply interested in AICVS and its activities! Unfortunately we are not having any events lined up! BUT! hold on cause we are planning some exciting and jaw dropping events for you all to participate in! So maintain your streak of visiting this tab regularly, 'cause, who knows, what has been planned...
-                    </p>  
+        <Section crosses className="relative w-full h-screen mx-auto">
+            {/* Bento Box section below the kaggle */}
+            <div className="sm:px-16 px-6 absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5">
+                <div className="flex flex-col justify-center items-center mt-5">
+                    <div className="w-5 h-5 rounded-full bg-[#915eff] border-2 border-white shadow-neon"/>
+                    <div className="w-1 sm:h-80 rounded-full bg-gradient-to-b from-[#915eff]"/>
                 </div>
+                <div>
+                    <h1 className="font-black text-white lg:text-[80px] mt-3 mb-6 sm:text-center xs:text-[50px] text-4xl sm:text-5xl lg:leading-[98px]">Welcome to <span className="text-[#915eff]">Kaggle 2024</span></h1>
+        
+                    <p className="text-[#dfd9ff] lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100"> Join us for a very exciting kaggle event on Xth December, 2024.</p>
+                    <a href="https://www.google.com" className="lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] text-[#915bff] underline italic hover:text-[#2a31fa]">Register HERE.</a>
+
+                    {/* Add Bento section here */}
+                </div>
+
             </div>
         </Section>
         <Footer />

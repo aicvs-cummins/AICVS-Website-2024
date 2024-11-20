@@ -22,6 +22,7 @@ import searchMd from "./search-md.svg";
 import sliders04 from "./sliders-04.svg";
 import team from "../assets/hero/team.png"
 import yourlogo from "./yourlogo.svg";
+import roboface from "./roboface.png";
 
 import kruti from "./kruti.png";
 import yashita from "./yashita.png";
@@ -117,5 +118,5 @@ export {
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, team, yourlogo, waveSphere,
   kruti, yashita, isha, ishita, siya, varada,
-  shreya_watwe, shreya_mote, shreya_agrawal, vaidehi_more, janhavi_mishra
+  shreya_watwe, shreya_mote, shreya_agrawal, vaidehi_more, janhavi_mishra, roboface
 };
