@@ -10,6 +10,7 @@ import chromecast from "./chrome-cast.svg";
 import disc02 from "./disc-02.svg";
 import file02 from "./file-02.svg";
 import gradient from "./gradient.png";
+import purpleGradient from "./purple_gradient.png"
 import grid from "./grid.png";
 import homeSmile from "./home-smile.svg";
 import loading1 from "./loading-01.svg";
@@ -22,6 +23,7 @@ import searchMd from "./search-md.svg";
 import sliders04 from "./sliders-04.svg";
 import team from "../assets/hero/team.png"
 import yourlogo from "./yourlogo.svg";
+import roboface from "./roboface.png";
 
 import kruti from "./kruti.png";
 import yashita from "./yashita.png";
@@ -91,6 +93,8 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import dots from "./dots.mp4"
+
 export {
   background, benefitCard1,
   benefitCard2,
@@ -117,5 +121,5 @@ export {
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, team, yourlogo, waveSphere,
   kruti, yashita, isha, ishita, siya, varada,
-  shreya_watwe, shreya_mote, shreya_agrawal, vaidehi_more, janhavi_mishra
+  shreya_watwe, shreya_mote, shreya_agrawal, vaidehi_more, janhavi_mishra, roboface, purpleGradient, dots
 };

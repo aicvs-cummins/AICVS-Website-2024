@@ -6,6 +6,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        'neon': '0 0 10px #ffffff, 0 0 20px #915eff, 0 0 30px #915eff, 0 0 40px #915eff',
+        'glow': '0 0 15px rgba(145, 94, 255, 0.8), 0 0 25px rgba(145, 94, 255, 0.8)',
+      },
       keyframes: {
         slidein: {
           '0%': { transform: 'translateX(-100%)', opacity: '0' },
