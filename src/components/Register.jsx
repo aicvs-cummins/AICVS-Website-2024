@@ -6,7 +6,7 @@ import { dots, gradient, roboface } from '../assets';
 
 const Register = () => {
   return (
-    <div>
+      <div>
       <Header />
       <Section crosses className="relative w-full h-screen mx-auto">
       <div class="relative h-full w-full"><div class="absolute bottom-0 left-[-15%] right-0 top-0 h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(145,94,255,.15),rgba(255,255,255,0))]"></div></div>
@@ -29,8 +29,19 @@ const Register = () => {
             >
               Register HERE.
             </a>
+            <div className="mt-8 flex flex-col items-center justify-center">
+              <img
+                src={roboface} // Replace roboface with your imported image or URL
+                alt="Event Poster"
+                className="w-full max-w-[500px] rounded-lg shadow-lg"
+              />
+            </div>
+
           </div>
+          
         </div>
+        
+        
 
         {/* <div class="relative h-full w-full"><div class="absolute bottom-0 left-[-15%] right-0 top-0 h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,16,159,.15),rgba(255,16,159,0))]"></div></div> */}
         {/* Next Event Registration
