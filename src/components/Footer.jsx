@@ -18,7 +18,7 @@ const Footer = () => {
             <br />Cummins College of Engineering for Women, Karvenagar, Pune.
           </p>
           <p className="text-base md:text-lg">
-                <a href="mailto:aicvs.cummins@cumminscollege.in" className="underline text-n-4"> aicvs.cummins@cumminscollege.org</a>
+                <a href="mailto:aicvs.cummins@cumminscollege.in" className="underline text-n-4"> aicvs.cummins@cumminscollege.in</a>
               </p>
         </div>
 
