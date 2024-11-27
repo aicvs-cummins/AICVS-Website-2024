@@ -6,7 +6,7 @@ import { dots, gradient, roboface } from '../assets';
 
 const Register = () => {
   return (
-    <div>
+      <div>
       <Header />
       <Section crosses className="relative w-full h-screen mx-auto">
       <div class="relative h-full w-full"><div class="absolute bottom-0 left-[-15%] right-0 top-0 h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(145,94,255,.15),rgba(255,255,255,0))]"></div></div>
@@ -21,7 +21,10 @@ const Register = () => {
               Welcome to <span className="text-[#915eff]">Kaggle 2024</span>
             </h1>
             <p className="text-[#dfd9ff] lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100">
-              Join us for a very exciting Kaggle event on Xth December, 2024.
+            Join us for a very exciting Kaggle event on 7th December, 2024.
+            </p>
+            <p className="text-[#dfd9ff] lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100">
+              Pre-Kaggle: 
             </p>
             <a
               href="https://www.google.com"
@@ -29,6 +32,23 @@ const Register = () => {
             >
               Register HERE.
             </a>
+            <p className="text-[#dfd9ff] lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100">
+              Kaggle: 
+            </p>
+            <a
+              href="https://www.google.com"
+              className="lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] text-[#915bff] underline italic hover:text-[#2a31fa]"
+            >
+              Register HERE.
+            </a>
+            {/* inserting poster image*/}
+            <div className="mt-8 flex flex-col items-center justify-center">
+              <img
+                src={roboface} // Replace roboface with your imported image or URL
+                alt="Event Poster"
+                className="w-full max-w-[500px] rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </div>
 
@@ -54,7 +74,11 @@ const Register = () => {
             </a>
           </div>
         </div> */}
+  
+        
       </Section>
+      <div className="h-40"></div> {/*adding some space below image*/}
+
       <Footer />
     </div>
   );
