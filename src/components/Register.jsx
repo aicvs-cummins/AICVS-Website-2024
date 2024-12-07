@@ -5,7 +5,7 @@ import Footer from './Footer';
 import { roboface } from '../assets';
 
 const Register = () => {
-  const prekaggle = import.meta.env.VITE_PRE_KAGGLE_LINK;
+  const repository = import.meta.env.VITE_REPOSITORY_LINK;
   const kaggle = import.meta.env.VITE_KAGGLE_LINK;
 
   return (
@@ -32,11 +32,11 @@ const Register = () => {
                 <br />
                 ✨ Kaggle: The main event is coming soon! Stay tuned and join Pre-Kaggle to uncover! 
                 <br />
-                🔗 Pre-Kaggle: {" "}<a
-                  href={prekaggle}
+                🔗 Github repository to learn about kaggle is compiled{" "}<a
+                  href={repository}
                   className="lg:text-[25px] sm:text-[26px] text-[20px] lg:leading-[40px] text-[#915bff] underline italic hover:text-[#2a31fa]"
                 >
-                  Join Here
+                  Here
                 </a>
                  <br />
                 🔗 Kaggle: {" "}  <a
