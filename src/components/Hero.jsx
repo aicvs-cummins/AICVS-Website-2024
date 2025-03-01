@@ -17,10 +17,9 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
-           Artificial Intelligence and Computer Vision Society
-        
-          </h1>
+        <h1 className="h1 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-cyan-500 to-pink-500 animate-[bg-scroll_3s_linear_infinite]">
+  Artificial Intelligence and Computer Vision Society
+        </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
          We are the Artificial Intelligence & Computer Vision Society of Cummins College of Engineering.Our Society aims to help students in shaping their career in AI/ML, through projects,competitions & internships.
           </p>

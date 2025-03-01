@@ -16,7 +16,7 @@ const Footer = () => {
             <br />Cummins College of Engineering for Women, Karvenagar, Pune.
           </p>
           <p className="text-base md:text-sm">
-                <a href="mailto:aicvs.cummins@cumminscollege.in" className="underline text-n-4"> aicvs.cummins@cumminscollege.org</a>
+                <a href="mailto:aicvs.cummins@cumminscollege.in" className="underline text-n-4"> aicvs.cummins@cumminscollege.in</a>
               </p>
         </div>
 
@@ -26,10 +26,10 @@ const Footer = () => {
               key={item.id}
               href={item.url}
               target="_blank"
-              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
+              className="flex items-center justify-center w-12 h-12 bg-n-7 rounded-full transition-colors hover:bg-n-6"
               rel="noopener noreferrer"
             >
-              <img src={item.iconUrl} width={20} height={20} alt={item.title} />
+              <img src={item.iconUrl} width={100} height={100} alt={item.title} />
             </a>
           ))}
         </ul>
@@ -44,7 +44,7 @@ const Footer = () => {
               <h3 className="text-xl md:text-1xl font-semibold mb-2">Contact Information</h3>
               <p className="text-base md:text-sm">
                 <strong>Email:</strong> 
-                <a href="mailto:principal@cumminscollege.org" className="underline text-n-4"> principal@cumminscollege.org</a>
+                <a href="mailto:principal@cumminscollege.in" className="underline text-n-4"> principal@cumminscollege.in</a>
               </p>
               <p className="text-base md:text-sm">
                 <strong>College Contact No:</strong> 
