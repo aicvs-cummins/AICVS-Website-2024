@@ -10,12 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "framer-motion": "^12.4.4",
-    "lucide-react": "^0.475.0",
-=======
-    "@vercel/analytics": "^1.4.1",
->>>>>>> 86550f5e7c87957514244fce42e3e766cbcf1c55
+    "@vercel/analytics": "^1.5.0",
+    "framer-motion": "^12.4.7",
+    "lucide-react": "^0.477.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-just-parallax": "^3.1.16",

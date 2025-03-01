@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
-import Footer from "./Footer";
+import { git } from "../assets";
 import Header from "./Header";
 
 const positions = [
@@ -116,7 +116,7 @@ const GradientCards = () => {
                     <div className="w-full flex justify-between items-center">
                       <h2 style={{ fontFamily: "'Sigmar One', cursive" }} className="text-5xl font-bold">GitHub</h2>
                       <img
-                        src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png"
+                        src={git}
                         alt="GitHub Logo"
                         className="w-16 h-16"
                       />
@@ -171,7 +171,7 @@ const GradientCards = () => {
           <ChevronRight size={36} />
         </button>
       </div>
-      <Footer className="w-full text-center py-4 bg-[#120217]" />
+    
     </div>
   );
 };

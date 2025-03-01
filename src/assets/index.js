@@ -1,42 +1,42 @@
-import smallSphere from "./ball.png";
-import waveSphere from "./wave.png";
+import team from "../assets/hero/team.png";
 import background from "./background.jpg";
-import logo from "./logo.png"
-import bird from "./collaboration/bird.png";
+import smallSphere from "./ball.png";
 import brainwave from "./brainwave.png";
 import check2 from "./check-02.svg";
 import check from "./check.svg";
 import chromecast from "./chrome-cast.svg";
+import bird from "./collaboration/bird.png";
 import disc02 from "./disc-02.svg";
 import file02 from "./file-02.svg";
+import git from "./git.png";
 import gradient from "./gradient.png";
-import purpleGradient from "./purple_gradient.png"
 import grid from "./grid.png";
 import homeSmile from "./home-smile.svg";
-import loading1 from "./loading-01.svg";
-import loading from "./loading.png";
-import play from "./play.svg";
-import plusSquare from "./plus-square.svg";
-import recording01 from "./recording-01.svg";
-import recording03 from "./recording-03.svg";
-import searchMd from "./search-md.svg";
-import sliders04 from "./sliders-04.svg";
-import team from "../assets/hero/team.png"
-import yourlogo from "./yourlogo.svg";
-import roboface from "./roboface.png";
-
-import kruti from "./kruti.png";
-import yashita from "./yashita.png";
 import isha from "./isha.png";
 import ishita from "./ishita.png";
+import kruti from "./kruti.png";
+import loading1 from "./loading-01.svg";
+import loading from "./loading.png";
+import logo from "./logo.png";
+import play from "./play.svg";
+import plusSquare from "./plus-square.svg";
+import purpleGradient from "./purple_gradient.png";
+import recording01 from "./recording-01.svg";
+import recording03 from "./recording-03.svg";
+import roboface from "./roboface.png";
+import searchMd from "./search-md.svg";
 import siya from "./siya.png";
+import sliders04 from "./sliders-04.svg";
 import varada from "./varada.png";
+import waveSphere from "./wave.png";
+import yashita from "./yashita.png";
+import yourlogo from "./yourlogo.svg";
 
-import shreya_watwe from "./shreya_watwe.png";
-import shreya_mote from "./shreya_mote.png";
-import shreya_agrawal from "./shreya_agrawal.png";
-import vaidehi_more from "./vaidehi_more.png";
 import janhavi_mishra from "./janhavi_mishra.png";
+import shreya_agrawal from "./shreya_agrawal.png";
+import shreya_mote from "./shreya_mote.png";
+import shreya_watwe from "./shreya_watwe.png";
+import vaidehi_more from "./vaidehi_more.png";
 
 
 import curve from "./hero/curve.png";
@@ -93,7 +93,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import dots from "./dots.mp4"
+import dots from "./dots.mp4";
 
 export {
   background, benefitCard1,
@@ -106,20 +106,18 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2, bird, brainwave, logo, check,
+  benefitImage2, bird, brainwave, check,
   check2, chromecast, coins, curve, curve1,
-  curve2, disc02, discord, discordBlack, done, facebook, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, instagram, lines, loading, loading1, notification1,
+  curve2, disc02, discord, discordBlack, done, dots, facebook, figma, file02, framer, git, gradient, grid, hero, heroBackground, homeSmile, instagram, isha, ishita, janhavi_mishra, kruti, lines, loading, loading1, logo, notification1,
   notification2,
   notification3,
   notification4, notion,
-  photoshop, play, plusSquare, protopie,
-  raindrop, recording01, recording03, roadmap1,
+  photoshop, play, plusSquare, protopie, purpleGradient, raindrop, recording01, recording03, roadmap1,
   roadmap2,
   roadmap3,
-  roadmap4, robot, searchMd, service1,
+  roadmap4, roboface, robot, searchMd, service1,
   service2,
-  service3, slack, sliders04, smallSphere, stars, telegram,
-  twitter, undone, team, yourlogo, waveSphere,
-  kruti, yashita, isha, ishita, siya, varada,
-  shreya_watwe, shreya_mote, shreya_agrawal, vaidehi_more, janhavi_mishra, roboface, purpleGradient, dots
+  service3, shreya_agrawal, shreya_mote, shreya_watwe, siya, slack, sliders04, smallSphere, stars, team, telegram,
+  twitter, undone, vaidehi_more, varada, waveSphere, yashita, yourlogo
 };
+
