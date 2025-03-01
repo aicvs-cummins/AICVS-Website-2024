@@ -1,6 +1,6 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import AboutUs from "./components/AboutUs";
-
+import { Analytics } from "@vercel/analytics/react"
 import Footer from "./components/Footer";
 import Blog from "./components/GradientCards";
 import Header from "./components/Header";
@@ -15,7 +15,7 @@ const App = () => {
         <Blog />    
         <Footer />
       </div>
-
+      <Analytics />
       <ButtonGradient />
     </>
   );

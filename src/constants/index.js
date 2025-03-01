@@ -1,4 +1,10 @@
 import {
+  benefitCard1,
+  benefitCard2,
+  benefitCard3,
+  benefitCard4,
+  benefitCard5,
+  benefitCard6,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
@@ -12,6 +18,10 @@ import {
   framer,
   homeSmile,
   instagram,
+  isha,
+  ishita,
+  janhavi_mishra,
+  kruti,
   notification2,
   notification3,
   notification4,
@@ -27,32 +37,56 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
+  shreya_agrawal,
+  shreya_mote,
+  shreya_watwe,
+  siya,
   slack,
   sliders04,
   telegram,
-  twitter
+  twitter,
+  vaidehi_more,
+  varada,
+  yashita,
+
 } from "../assets";
+
+
+
+import datathon from "../assets/datathon.png";
+
+import mlusion from "../assets/mlusion.jpg";
+import kaggle from "../assets/kaggle.jpg";
+import synapse from "../assets/synapse.jpg";
+import math from "../assets/math.jpg";
+import workshop from "../assets/workshop.jpg";
+
 
 export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#",
+    url: "/",
   },
   {
     id: "1",
     title: "Events",
-    url: "#",
+    url: "/events",
   },
   {
     id: "2",
     title: "Blogs",
-    url: "#",
+    url: "/blogs",
   },
   {
     id: "3",
     title: "Team",
-    url: "#",
+    url: "/team",
+  },
+  {
+    id: "4",
+    title: "Register",
+    url: "/register",
   },
 
 ];
@@ -194,89 +228,169 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    title: "DATAHON",
+    img: datathon,
+    
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+    title: "MLUSION",
+    img: mlusion,
+    
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-];
-
-export const benefits = [
-  {
-    id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    title: "KAGGLE COMPETITION",
+    img: kaggle,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
+    title: "THE SYNAPSE HACKATHON",
+    img: synapse,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    title: "AICVS X MATH CLUB",
+    img: math,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    title: "WORKSHOP ON GEN AI",
+    img: workshop,
+  },
+];
+
+export const team2024 = [
+  {
+    id: "0",
+    title: "Isha Bhagat",
+    text: "Co-Head Coordinator",
+    backgroundUrl: benefitCard1,
+    iconUrl: benefitIcon1,
+    imageUrl: isha,
+    light: true,
+    members: []
+  },
+  {
+    id: "1",
+    title: "Ishita Lele",
+    text: "Co-Head Coordinator",
+    backgroundUrl: benefitCard2,
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: ishita,
+    light: true,
+    members: []
+  },
+  {
+    id: "2",
+    title: "Kruti Newalkar",
+    text: "Web Development Team Lead",
+    backgroundUrl: benefitCard3,
+    iconUrl: benefitIcon3,
+    imageUrl: kruti,
+    light: true,
+    members: ["Sameeksha Tantak", "Vedika Kayangude", "Sanika Shidore", "Shraddha Sabde", "Akshata Ramgiri"]
+  },
+  {
+    id: "3",
+    title: "Varada Gokhale",
+    text: "Technical Team Lead",
+    backgroundUrl: benefitCard4,
+    iconUrl: benefitIcon4,
+    imageUrl: varada,
+    light: true,
+    members: ["Aastha Ingle",
+      "Nandini Pathak",
+      "Mira Vadjikar",
+      "Saniya Karambelkar",
+      "Siddhi Faizpurkar"]
+  },
+  {
+    id: "4",
+    title: "Yashita Killedar",
+    text: "Content and Design Team Lead",
+    backgroundUrl: benefitCard5,
+    iconUrl: benefitIcon1,
+    imageUrl: yashita,
+    light: true,
+    members: ["Nidhi Patil",
+      "Anjali Patel",
+      "Tanvi Shirwadkar",
+      "Anvi Shelar",
+      "Anoushka Wadyalkar",
+      "Nainsee Khade"]
+  },
+  {
+    id: "5",
+    title: "Siya Shah",
+    text: "PR and Sponsorship Team Lead",
+    backgroundUrl: benefitCard6,
+    iconUrl: benefitIcon2,
+    imageUrl: siya,
+    light: true,
+    members: ["Kavya Thacker",
+      "Ananya Dani",
+      "Akshata Lolge",
+      "Aadya Singh",
+      "Shreeya Chavan",
+      "Advika Khorgade",
+      "Arya Patekhede",
+      "Sukhada Bhagwat",
+      "Shreya Babar",
+      "Garima Kardbhajane"]
+  },
+];
+
+export const team2023 = [
+  {
+    id: "6",
+    title: "Shreya Watwe",
+    text: "Head Coordinator",
+    backgroundUrl: benefitCard1,
+    iconUrl: benefitIcon1,
+    imageUrl: shreya_watwe,
+    light: true,
+    members: []
+  },
+  {
+    id: "7",
+    title: "Janhavi Mishra",
+    text: "Projects and Internships Team Lead",
+    backgroundUrl: benefitCard4,
+    iconUrl: benefitIcon4,
+    imageUrl: janhavi_mishra,
+    light: true,
+    members: ["Aditi Hinge", "Tanya Gadwal", "Yashashri Phalak", "Bhakti Girase", "Siddhi Faizpurkar", "Ishita Lele"]
+  },
+  {
+    id: "8",
+    title: "Shreya Agrawal",
+    text: "Web Development Team Lead",
+    backgroundUrl: benefitCard2,
+    iconUrl: benefitIcon3,
+    imageUrl: shreya_agrawal,
+    light: true,
+    members: ["Kruti Newalkar", "Yashoda Kangle", "Gauravi Veling", "Kasturi Mandik"]
+  },
+  {
+    id: "9",
+    title: "Vaidehi More",
+    text: "Content and Design Team Lead",
+    backgroundUrl: benefitCard5,
+    iconUrl: benefitIcon1,
+    imageUrl: vaidehi_more,
+    light: true,
+    members: ["Gargi Joshi", "Bhairavi Bhuyar", "Tanjul Manikar", "Anoushka Wadyalkar", "Sharayu Chintal", "Devika Yeola"]
+  },
+  {
+    id: "10",
+    title: "Shreya Mote",
+    text: "PR and Sponsorship Team Lead",
+    backgroundUrl: benefitCard3,
+    iconUrl: benefitIcon2,
+    imageUrl: shreya_mote,
+    light: true,
+    members: ["Mrunal Shinde", "Aastha Dhar", "Sanskriti Srivastava", "Isha Asare", "Richa Rathi", "Riya Chaudhari"]
   },
 ];
 

@@ -1,14 +1,16 @@
-import smallSphere from "./4-small.png";
+import smallSphere from "./ball.png";
+import waveSphere from "./wave.png";
 import background from "./background.jpg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwave from "./brainwave.svg";
+import logo from "./logo.png"
+import bird from "./collaboration/bird.png";
+import brainwave from "./brainwave.png";
 import check2 from "./check-02.svg";
 import check from "./check.svg";
 import chromecast from "./chrome-cast.svg";
 import disc02 from "./disc-02.svg";
 import file02 from "./file-02.svg";
 import gradient from "./gradient.png";
+import purpleGradient from "./purple_gradient.png"
 import grid from "./grid.png";
 import homeSmile from "./home-smile.svg";
 import loading1 from "./loading-01.svg";
@@ -19,7 +21,23 @@ import recording01 from "./recording-01.svg";
 import recording03 from "./recording-03.svg";
 import searchMd from "./search-md.svg";
 import sliders04 from "./sliders-04.svg";
+import team from "../assets/hero/team.png"
 import yourlogo from "./yourlogo.svg";
+import roboface from "./roboface.png";
+
+import kruti from "./kruti.png";
+import yashita from "./yashita.png";
+import isha from "./isha.png";
+import ishita from "./ishita.png";
+import siya from "./siya.png";
+import varada from "./varada.png";
+
+import shreya_watwe from "./shreya_watwe.png";
+import shreya_mote from "./shreya_mote.png";
+import shreya_agrawal from "./shreya_agrawal.png";
+import vaidehi_more from "./vaidehi_more.png";
+import janhavi_mishra from "./janhavi_mishra.png";
+
 
 import curve from "./hero/curve.png";
 import heroBackground from "./hero/hero-background.jpg";
@@ -57,12 +75,12 @@ import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
-import benefitCard6 from "./benefits/card-6.svg";
+import benefitCard1 from "./benefits/card-1.png";
+import benefitCard2 from "./benefits/card-2.png";
+import benefitCard3 from "./benefits/card-3.png";
+import benefitCard4 from "./benefits/card-4.png";
+import benefitCard5 from "./benefits/card-5.png";
+import benefitCard6 from "./benefits/card-6.png";
 import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
@@ -75,6 +93,8 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import dots from "./dots.mp4"
+
 export {
   background, benefitCard1,
   benefitCard2,
@@ -86,8 +106,7 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2, brainwave, brainwaveSymbol,
-  brainwaveWhiteSymbol, check,
+  benefitImage2, bird, brainwave, logo, check,
   check2, chromecast, coins, curve, curve1,
   curve2, disc02, discord, discordBlack, done, facebook, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, instagram, lines, loading, loading1, notification1,
   notification2,
@@ -100,6 +119,7 @@ export {
   roadmap4, robot, searchMd, service1,
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
-  twitter, undone, yourlogo
+  twitter, undone, team, yourlogo, waveSphere,
+  kruti, yashita, isha, ishita, siya, varada,
+  shreya_watwe, shreya_mote, shreya_agrawal, vaidehi_more, janhavi_mishra, roboface, purpleGradient, dots
 };
-
