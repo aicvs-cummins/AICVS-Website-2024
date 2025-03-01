@@ -7,6 +7,8 @@ const Register = () => {
     <div>
         <Header />
         <br></br>
+        <br></br>
+        <br></br>
        <Gradient/>
        <br></br>
        <Footer />
