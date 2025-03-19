@@ -1,7 +1,6 @@
 import React from 'react';
+import { smallSphere, waveSphere } from '../assets';
 import Section from "./Section";
-import { BottomLine } from './design/Hero';
-import { robot, smallSphere, waveSphere } from '../assets';
 
 const AboutUs = () => {
     return (

@@ -1,7 +1,6 @@
 import React from "react";
 import { socials } from "../constants";
 import Section from "./Section";
-import { BottomLine } from "./design/Hero";
 
 const Footer = () => {
   return (
@@ -46,7 +45,7 @@ const Footer = () => {
               <h3 className="text-xl md:text-3xl font-semibold mb-2">Contact Information</h3>
               <p className="text-base md:text-lg">
                 <strong>Email:</strong> 
-                <a href="mailto:principal@cumminscollege.org" className="underline text-n-4"> principal@cumminscollege.org</a>
+                <a href="mailto:principal@cumminscollege.in" className="underline text-n-4"> principal@cumminscollege.in</a>
               </p>
               <p className="text-base md:text-lg">
                 <strong>College Contact No:</strong> 

@@ -1,8 +1,7 @@
 import { useRef } from "react";
-import { curve, heroBackground, background, robot, team} from "../assets";
-import Button from "./Button";
+import { curve, heroBackground, team } from "../assets";
 import Section from "./Section";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+import { BackgroundCircles, BottomLine } from "./design/Hero";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
